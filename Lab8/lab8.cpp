@@ -22,11 +22,13 @@ double ToPounds(int B){
     cout << "How many kilograms?: ";
     cin >> numKilos;
     cout << endl;
-    cout << ToKilo(numKilos) << endl;
+    cout << "Total Pounds: " << ToKilo(numKilos) << endl;
     
     cout << "How many pounds?: ";
     cin >> numPounds;
     cout << endl;
-    cout << ToPounds(numPounds);
+    cout << "Total Kilos: " << ToPounds(numPounds) << endl;
+    
+    return 0;
     
  }

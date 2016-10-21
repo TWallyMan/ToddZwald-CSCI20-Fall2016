@@ -22,7 +22,26 @@ functions available.
 
 
 class TemperatureConverter {
-    double
+    public:
+        void SetTempFromKelvin(){
+            double kelvin_;
+            return;
+        }
+        double GetTempFromKelvin(double kelvin_){
+            return kelvin_;
+        }
+        double SetTempFromCelsius(double celsius){
+            double kelvin_ = celsius + 273.15;
+        }
+        double SetTempFromFahrenheit(double fahrenheit){
+            double kelvin_ = farhenheit (5 * (fahrenheit -32) / 9) + 273.15;
+        }
+        double GetTempAsCelsius(double )
+        
+    private:
+        
+        
+        
 }
 
 
